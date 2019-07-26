@@ -1,0 +1,16 @@
+seed info---------------------------
+
+INSERT INTO house (url, name, address, city, state, zipcode, mortgage, rent)
+VALUES ('https://ap.rdcpix.com/3710238958/652e0ce3d16a7d6d82515ddb33c620a6l-m0xd-w480_h480_q80.jpg','somename','some address','dallas','texas',12345,2500.00,1500.00),
+('https://ap.rdcpix.com/4162024284/1b748834a7c5f1edb7079fbe4427f629l-m0xd-w480_h480_q80.jpg','somename','some address','dallas','texas',12345,2500.00,1500.00),
+('https://ap.rdcpix.com/3960348316/3771f493be7f2ccbff47d0883fdb632cl-m0xd-w480_h480_q80.jpg','somename','some address','dallas','texas',12345,2500.00,1500.00),
+('https://ap.rdcpix.com/400751494/ccfe18b485aa7e4e579d26ef0a4b0179l-m0xd-w480_h480_q80.jpg','somename','some address','dallas','texas',12345,2500.00,1500.00),
+('https://ap.rdcpix.com/3001946801/642c3aa05b62e3e05075c40094b5e77cl-m0xd-w480_h480_q80.jpg','somename','some address','dallas','texas',12345,2500.00,1500.00),
+('https://ap.rdcpix.com/3583163532/29d0433755c6519bf36c8c0f4a50bcf6l-m0xd-w480_h480_q80.jpg','somename','some address','dallas','texas',12345,2500.00,1500.00)
+
+;
+
+-----------------------------
+
+('','somename','some address','dallas','texas',12345,2500.00,1500.00),
+('','somename','some address','dallas','texas',12345,2500.00,1500.00),

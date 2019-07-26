@@ -13,14 +13,14 @@ massive(process.env.CONNECTION_STRING)
 console.log("database connected :)");
 }).catch(e => console.log(e));   
 
-
+app.post("/api/houses", controller.create);
+app.get('/api/houses', controller.getAll);
+app.get('/api/houses/:id', controller.getOne);
+app.delete('/api/houses/:id', controller.delete);
 
 
 app.listen(process.env.SERVER_PORT,()=>console.log("listening on port " + process.env.SERVER_PORT))//runs server
 
 
-// app.post('/api/products', controller.create);
-// app.get('/api/products', controller.getAll);
-// app.get('/api/products/:id', controller.getOne);
+
 // app.put('/api/products/:id', controller.update);
-// app.delete('/api/products/:id', controller.delete);

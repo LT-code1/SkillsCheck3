@@ -12,11 +12,8 @@ function App() {
     <Header />
     <Router>
     <div className="App">
-      {/* //<h1>stuff goes here</h1> */}
-      
-    
+     
     </div>
-
 
     {routes}
     </Router>
@@ -28,5 +25,5 @@ export default App;
 
 
 
-//<Dashboard />
+
 
