@@ -1,6 +1,39 @@
 .App {
   text-align: center;
+  background-color: rgb(207, 207, 185);
 }
+
+.Header{
+  display: flex;
+  align-items: center;
+  color: white;
+  min-height: 8vh;
+  background-color: rgb(185, 185, 121);
+  padding: 0;
+  margin: 0;
+
+}
+
+.Dashboard{
+  /* display: flex; */
+  background-color: rgb(207, 207, 185);
+}
+.Dashboard-Header{
+  display: flex;
+  min-height: 10vh;
+  align-items: center;
+  justify-content: space-between;
+}
+.Wizard{
+  background-color: rgb(207, 207, 185);
+}
+.Wizard-Header{
+  display: flex;
+  min-height: 10vh;
+  align-items: center;
+  justify-content: space-between;
+}
+
 
 nav{
   display: flex;
